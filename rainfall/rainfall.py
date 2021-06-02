@@ -1,18 +1,17 @@
-"""
-data and data1 - две строки с записями осадков в нескольких городах за месяцы с января по декабрь. Записи городов разделяются \ n. После названия каждого города ставится ":".
 
-"""
+def open_file(filepath: str):
+    with open(file=filepath, mode='r', encoding='utf-8') as file:
+        return file.read()
 
-def mean(town, strng):
+def mean(town: str, strng: str):
     pass
 
 
-def variance(town, strng):
+def variance(town: str, strng: str):
     pass
 
 def main():
-    print('Hello word')
-
+    pass
 
 if __name__ == '__main__':
     main()
